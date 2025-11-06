@@ -31,6 +31,17 @@ Elle est conçue pour tous ceux qui pensent mieux à voix haute : étudiants, pr
 7.  Cliquez sur le bouton **Sauvegarder** (`Save`) pour télécharger votre note polie en tant que fichier Markdown.
 8.  Cliquez sur le bouton **Nouveau** (`New`) pour tout effacer et recommencer.
 
+## Configuration
+
+### Clé API
+
+Cette application nécessite une clé API pour le service Google Gemini. La clé est gérée de manière sécurisée et n'a pas besoin d'être saisie manuellement dans l'interface.
+
+- La clé API doit être disponible en tant que variable d'environnement nommée `API_KEY`.
+- L'application est configurée pour récupérer et utiliser cette clé automatiquement.
+
+Vous n'avez aucune action à effectuer dans l'application elle-même concernant la clé API.
+
 ## Technologies Utilisées
 
 - **Frontend :** HTML5, CSS3, TypeScript
