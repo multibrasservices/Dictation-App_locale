@@ -1,0 +1,8 @@
+{
+  "name": "Dictation App_locale",
+  "description": "\"Votre voix, vos idées, parfaitement rédigées.\"",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
